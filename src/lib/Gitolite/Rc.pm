@@ -325,8 +325,8 @@ __DATA__
     # if you're using mirroring, you need a hostname.  This is *one* simple
     # word, not a full domain name.  See documentation if in doubt
     # HOSTNAME                  =>  'darkstar',
-    UMASK                       =>  0077,
-    GIT_CONFIG_KEYS             =>  '',
+    UMASK                       =>  0007,
+    GIT_CONFIG_KEYS             =>  '.*',
 
     # comment out if you don't need all the extra detail in the logfile
     LOG_EXTRA                   =>  1,
