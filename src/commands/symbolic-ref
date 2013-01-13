@@ -19,6 +19,7 @@ usage() { perl -lne 'print substr($_, 2) if /^# Usage/../^$/' < $0; exit 1; }
 [ -z "$1" ] && usage
 [ "$1" = "-h" ] && usage
 [ -z "$GL_USER" ] && die GL_USER not set
+[ "$GL_USER" != "gitlab" ] && die You are not authorised
 
 # ----------------------------------------------------------------------
 repo=$1; shift
