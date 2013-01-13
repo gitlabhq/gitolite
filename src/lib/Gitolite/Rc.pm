@@ -367,6 +367,7 @@ __DATA__
             # 'mirror'          =>  1,
             'perms'             =>  1,
             # 'sskm'            =>  1,
+            'symbolic-ref'      =>  1,
             'writable'          =>  1,
             # 'D'               =>  1,
         },
